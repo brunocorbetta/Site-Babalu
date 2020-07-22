@@ -1,66 +1,57 @@
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    margin: 0;
-    padding: 0;
+.global{
+    width: 1020px;
+    margin: auto;
 }
 
 
-header{
-    background-image: url(baner3.png);
+.header{
+    background-image: url(/praia.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    width: 1024px;
+    height: 600px;
     position: relative;
-    min-height: 300px;
+    
 }
 
-header #logo{
-    width: 300px;
-    color: #fff;
-    line-height: 60px;
+#logo{
+
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#logo p{
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-shadow:  4px 4px rgb(14, 13, 13) ;
     text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: #000 1px 1px 8px;
-    }
+}
 
-    header .header-border{
-        display: flex;
-        
-    }
+#mapa{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
-    .menu{
-        flex: 1;
-    }
+.menu{
+    position:absolute;
+    bottom: 8px;
+    left: 400px;
     
-     .menu ul{
-        display: flex;
-        justify-content: flex-end;
-        list-style: none;
-        padding: 0;
-    }
-    
-     .menu li{
-        min-width: 100px;
-        line-height: 28px;
-    }
-    
-     .menu a{
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 20px;
-    }
+}
 
-    .container{
-        display: flex;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
-        position: relative;
-        width: 100px;
-    }
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px rgb(14, 13, 13);
+}
