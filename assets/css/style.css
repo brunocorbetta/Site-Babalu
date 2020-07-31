@@ -10,13 +10,14 @@ body{
 
 
 .header{
-    background-image: url(/assets/imagem/loja.png);
+    background-image: url(../imagem/loja.png);
     background-repeat: no-repeat;
     width: 1224px;
     height: 550px;
     margin-top: 0;
     padding-top: 0;
     position: relative;
+    border-radius: 7px;
 
 }
 
@@ -79,8 +80,9 @@ body{
 }
 
 .map{
-    background-image: url(/assets/imagem/beach.png);
+    background-image: url(../imagem/beach.png);
     background-repeat: no-repeat;
+    border-radius: 7px;
 }
 
 
